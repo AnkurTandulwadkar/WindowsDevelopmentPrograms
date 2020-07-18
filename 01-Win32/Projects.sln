@@ -15,6 +15,23 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04-ColoringAMessage", "04-C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05-ColoringOnCharPress", "05-ColoringOnCharPress\05-ColoringOnCharPress.vcxproj", "{8494CF83-263D-43BE-9701-F2CC1C37B331}"
 EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "06-ByCmd", "06-ByCmd\06-ByCmd.exe", "{DC44B684-7AC2-412D-95B2-535772FB4AD4}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = E:\study\Classes\Windows development\assignments\WindowsDevelopmentPrograms\01-Win32\06-ByCmd\06-ByCmd.exe
+		RemoteMachine = DESKTOP-4F6C8DP
+		StartingDirectory = E:\study\Classes\Windows development\assignments\WindowsDevelopmentPrograms\01-Win32\06-ByCmd
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07-icon", "07-icon\07-icon.vcxproj", "{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08-Timer", "08-Timer\08-Timer.vcxproj", "{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +88,26 @@ Global
 		{8494CF83-263D-43BE-9701-F2CC1C37B331}.Release|x64.Build.0 = Release|x64
 		{8494CF83-263D-43BE-9701-F2CC1C37B331}.Release|x86.ActiveCfg = Release|Win32
 		{8494CF83-263D-43BE-9701-F2CC1C37B331}.Release|x86.Build.0 = Release|Win32
+		{DC44B684-7AC2-412D-95B2-535772FB4AD4}.Debug|x64.ActiveCfg = Release|x86
+		{DC44B684-7AC2-412D-95B2-535772FB4AD4}.Debug|x86.ActiveCfg = Release|x86
+		{DC44B684-7AC2-412D-95B2-535772FB4AD4}.Release|x64.ActiveCfg = Release|x86
+		{DC44B684-7AC2-412D-95B2-535772FB4AD4}.Release|x86.ActiveCfg = Release|x86
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Debug|x64.ActiveCfg = Debug|x64
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Debug|x64.Build.0 = Debug|x64
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Debug|x86.ActiveCfg = Debug|Win32
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Debug|x86.Build.0 = Debug|Win32
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Release|x64.ActiveCfg = Release|x64
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Release|x64.Build.0 = Release|x64
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Release|x86.ActiveCfg = Release|Win32
+		{C4FC0699-C07B-4DB0-8785-5CA6F1B82757}.Release|x86.Build.0 = Release|Win32
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Debug|x64.ActiveCfg = Debug|x64
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Debug|x64.Build.0 = Debug|x64
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Debug|x86.ActiveCfg = Debug|Win32
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Debug|x86.Build.0 = Debug|Win32
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Release|x64.ActiveCfg = Release|x64
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Release|x64.Build.0 = Release|x64
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Release|x86.ActiveCfg = Release|Win32
+		{30F15BE9-1DD3-4F26-8D61-1209FF8B736B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
