@@ -51,14 +51,15 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpszCmdLi
 
 LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 {
+	static HBRUSH hBrush[8];
+	static int iPaintFlag;
+	HDC hdc;
+	RECT rc;
+	PAINTSTRUCT ps;
+
 	switch (iMsg)
 	{
-		static HBRUSH hBrush[8];
-		static int iPaintFlag;
-		HDC hdc;
-		RECT rc;
-		PAINTSTRUCT ps;
-
+		
 	case WM_CREATE:
 		hBrush[0] = CreateSolidBrush(RGB(255,0,0));
 		hBrush[1] = CreateSolidBrush(RGB(0, 255, 0));
