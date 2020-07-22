@@ -7,7 +7,7 @@
 
 	cl.exe /c /EHsc sourcefile.cpp (to compile)
 	
-	link.exe sourcefile.cpp user32.lib gdi32.lib /SUBSYSTEM:WINDOWS (to link)
+	link.exe object.obj user32.lib gdi32.lib /SUBSYSTEM:WINDOWS (to link)
 
 
 3.If you want to do 1st option and linker is not linked properly.
